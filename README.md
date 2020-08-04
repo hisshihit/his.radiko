@@ -28,14 +28,14 @@ recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 参考にさせていただいたものと、ほぼ同じです(^^;
 録音データ形式の変更や、細かな部分を変えているだけです。
 
-##使い方
+## 使い方
 <ol>
 	<li>cronで定時起動させて録音させます。
 		<a href="./crontab-l.sample">サンプルのcrontab</a>を参照ください。</li>
 	<li>crontab中の出力先のファイル名や時刻は、適宜変更ください。</li>
 </ol>		 
 
-##動作検証済みの環境
+## 動作検証済みの環境
 <ul>
 	<li>ubuntu 20.04 LTS on Raspberry Pi 2B</li>
 	<li>ubuntu 20.04 LTS on Raspberry Pi 3B+</li>
