@@ -7,10 +7,11 @@
 ## 概要
 recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 
-インターネットでストリーム配信されている<a href="http://radiko.jp/>ラジコ</a>と
-  <a href="https://www.nhk.or.jp/radio/">らじるらじる</a>を録音する小さなスクリプトです。
-  ラジコ用: <a href="./rec_radiko.sh">rec_radiko_sh</a>
-  らじるらじる用: <a href="./rec_nhk.sh">rec_nhk_sh</a>
+インターネットでストリーム配信されている<a href="http://radiko.jp/">ラジコ</a>と
+<a href="https://www.nhk.or.jp/radio/">らじるらじる</a>を録音する小さなスクリプトです。
+<ul>
+	<li>ラジコ用: <a href="./rec_radiko.sh">rec_radiko_sh</a></li>
+	<li>らじるらじる用: <a href="./rec_nhk.sh">rec_nhk_sh</a></li>
   
 ## 注意事項
 録音したデータの取り扱いは、私的使用(著作権法第30条に定めるもの)の範囲内で、
