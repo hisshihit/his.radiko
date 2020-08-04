@@ -1,0 +1,22 @@
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+
+0 21 * * 0 sleep 18; /home/shibata/rec_nhk.sh FM 60 /home/shibata/radioput DiscoverBeatles
+0 10 * * 2 sleep 18; /home/shibata/rec_nhk.sh FM 50 /home/shibata/radioput MISIA
+0 10 * * 3 sleep 18; /home/shibata/rec_nhk.sh FM 50 /home/shibata/radioput ALFEE
+0 10 * * 5 sleep 18; /home/shibata/rec_nhk.sh FM 50 /home/shibata/radioput Kishitani
+30 12 * * 1-6 sleep 18; /home/shibata/rec_nhk.sh FM 90 /home/shibata/radioput KAYOU
+0 16 * * 0 sleep 18; /home/shibata/rec_nhk.sh FM 60 /home/shibata/radioput YOUGAKU
+0 18 * * * sleep 18; /home/shibata/rec_nhk.sh FM 50 /home/shibata/radioput YORU
+0 0 * * 1-5 sleep 18; /home/shibata/rec_nhk.sh FM 50 /home/shibata/radioput YORU
+0 14 * * 0 sleep 18; /home/shibata/rec_radiko.sh FMT 55 /home/shibata/radioput Yamashita
+0 0 * * * sleep 18; /home/shibata/rec_radiko.sh FMT 55 /home/shibata/radioput JetStream
+0 5 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput GreenJacket
+0 6 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput GreenJacket
+0 7 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput GreenJacket
+0 8 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput GreenJacket
+0 23 * * 6 sleep 18; /home/shibata/rec_radiko.sh FMT 55 /home/shibata/radioput Kuwata
+0 9 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput Hawaii
+0 10 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput Hawaii
+0 11 * * 6 sleep 18; /home/shibata/rec_radiko.sh INT 60 /home/shibata/radioput Hawaii
