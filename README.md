@@ -30,7 +30,8 @@ recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 
 ##使い方
 <ol>
-	<li>cronで定時起動させて録音させます。<a href="./crontab-l.sample>サンプルのcrontab</a>を参照ください。</li>
+	<li>cronで定時起動させて録音させます。
+		<a href="./crontab-l.sample">サンプルのcrontab</a>を参照ください。</li>
 	<li>crontab中の出力先のファイル名や時刻は、適宜変更ください。</li>
 </ol>		 
 
