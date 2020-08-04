@@ -12,6 +12,7 @@ recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 <ul>
 	<li>ラジコ用: <a href="./rec_radiko.sh">rec_radiko_sh</a></li>
 	<li>らじるらじる用: <a href="./rec_nhk.sh">rec_nhk_sh</a></li>
+</ul>
   
 ## 注意事項
 録音したデータの取り扱いは、私的使用(著作権法第30条に定めるもの)の範囲内で、
@@ -45,3 +46,13 @@ recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 </ul>
 		
 以下、書きかけです。
+## 前提環境・必要なソフトウエア
+ffmpeg
+swftools
+
+## 応用的な使い方
+mount -t cifs
+mac側でのファイル共有設定
+iTunes matchでの利用
+
+## 
