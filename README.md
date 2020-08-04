@@ -1,10 +1,12 @@
 # his.radiko
+##全体概要図
 <p align="center">
-	<img src="./rec_radio.jpg" width="50%" />
+	<img src="./rec_radio.jpg" width="%" />
 </p>
-recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 
 ## 概要
+recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
+
 インターネットでストリーム配信されている<a href="http://radiko.jp/>ラジコ</a>と
   <a href="https://www.nhk.or.jp/radio/">らじるらじる</a>を録音する小さなスクリプトです。
   ラジコ用: <a href="./rec_radiko.sh">rec_radiko_sh</a>
@@ -23,11 +25,21 @@ recording Radiko/Radiru-radiru on ubuntu/Raspberry-pi
 </ul>
 
 ## 何が違うの？
-ほぼ同じです(^^;
-録音データ形式を若干変えているだけです。
+参考にさせていただいたものと、ほぼ同じです(^^;
+録音データ形式の変更や、細かな部分を変えているだけです。
 
 ##使い方
-cronで定時起動させて録音させます。
-<a href="./crontab-l.sample>サンプルのcrontab</a>を参照ください。
+<ol>
+	<li>cronで定時起動させて録音させます。<a href="./crontab-l.sample>サンプルのcrontab</a>を参照ください。</li>
+	<li>crontab中の出力先のファイル名や時刻は、適宜変更ください。</li>
+</ol>		 
 
+##動作検証済みの環境
+<ul>
+	<li>ubuntu 20.04 LTS on Raspberry Pi 2B</li>
+	<li>ubuntu 20.04 LTS on Raspberry Pi 3B+</li>
+	<li>ubuntu 20.04 LTS on Raspberry Pi 4B(8GB model)</li>
+	<li>ubuntu 20.04 LTS on VirtualBox on macmini(late 2012)</li>
+</ul>
+		
 以下、書きかけです。
